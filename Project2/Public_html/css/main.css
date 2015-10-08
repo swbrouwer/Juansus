@@ -1,0 +1,152 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: 'Arvo', serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid #333;
+}
+
+
+body h1 {
+ font-family: 'Chivo', sans-serif;
+}
+
+h2 {
+  font-family: 'Arvo', serif;
+  
+}
+
+
+a {
+  font-family: arial, sans-serif;
+}
+
+h1{
+  font-size: 4em
+}
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.15em solid #333;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+.textlink {
+  color: #6CD5FA;
+  font-family: 'Arvo', serif;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+.button-nav {
+  font-family: 'Arvo', serif;
+  display: inline-block;
+  margin-right: 0em;
+  padding: 1em 1em;
+  color: black;
+  background-color: #D73224;
+  border-radius: 0em;
+  text-decoration: none;
+  text-align: middle;
+  text-align: center;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+}
+
+.button-nav:hover, .button-submit:focus {
+  background-color: white;
+  border-radius: 0;
+  background: 0.5;
+  color: black;
+
+}
+
+
+
+.button-submit {
+  font-family: 'Arvo', serif;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #6CD5FA;
+  border-radius: 0.40em;
+  text-decoration: none;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+}
+
+.button-submit:hover, .button-submit:focus {
+  background-color: #f7f7f7;
+  color: black;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #6CD5FA;
+}
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
