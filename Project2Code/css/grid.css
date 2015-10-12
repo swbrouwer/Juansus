@@ -22,9 +22,10 @@
 	'grid-col-', then we should apply the styling listed
 */
 [class^='grid-col-'] {
-	float: left;
+	float: absolute;
 	padding: 0; 
-	text-align: center; /* center the content in this block by default */
+	text-align: left; /* center the content in this block by default */
+	padding-left: 4.5em;
 }
 
 
@@ -32,9 +33,7 @@
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
 */
-.grid-col-5of10, .grid-col-2of10 {
-	width: 100%;
-}
+
 
 
 
@@ -51,17 +50,23 @@
 
 
 
+
 /*
 	Using further @media queries, we specify that at a width of
 	less than 30em it should collapse the 2/10 columns into one stack
 
 	Think of this as saying, when display width > 30em, apply this
 */
-@media (min-width: 30em) {
+@media (max-width: 10em) {
 
-	.grid-col-2of10 {
-		width: 20%;
+	.grid-col-1of2 {
+		width: 100%;
 	}
+	.grid-col-2of2{
+		width: 100%;
+	}
+	
+
 
 }
 
@@ -73,19 +78,18 @@
 
 	Think of this as saying, when display width > 50em, apply this
 */
-@media (min-width: 50em) {
+@media (min-width: 40em) {
 
-	.grid-col-5of10 {
+	.grid-col-1of2 {
 		width: 50%;
 	}
 
-	.grid-col-5of10:first-of-type {
-		padding-right: 0.5em;
+	.grid-col-2of2 {
+		width: 50%;
 	}
 
-	.grid-col-5of10:last-of-type {
-		padding-left: 0.5em;
-	}
+
+	
 
 }
 
