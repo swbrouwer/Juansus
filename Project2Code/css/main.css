@@ -3,6 +3,9 @@ html{
   position: relative;;
 }
 
+
+}
+
 body {
   font-family: 'Arvo', serif;
   padding: 2rem;
@@ -19,11 +22,12 @@ body {
 
 h1 {
   padding-top: 0em;
-  margin-top: -0.5em;
-  padding-left: 0em;
-  margin-left: -0.3em;
+  margin-top: 0em;
+  padding-left: 0.7em;
+  margin-left: -0.7em;
    font-family: 'Chivo', sans-serif;
- font-size: 4rem;
+
+ font-size: 12vw;
 }
 
 
@@ -101,13 +105,15 @@ cite {
 */
 .button-nav {
   font-family: 'Arvo', serif;
+  width: 100%;
+  letter-spacing: 1em;
   display: inline-block;
-  margin-right: 0em; /* dont know why this doesnt make them flush */
+  margin-right: -0.5em;
+  margin-top: -1em;
   padding: 1em 1em;
   color: black;
   background-color: #D73224;
-  border-radius: 0em;
-  text-decoration: none;
+  border-radius: 0px;
   text-align: middle;
   text-align: center;
   -webkit-transition: background-color 1s ease-out;
