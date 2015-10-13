@@ -30,7 +30,7 @@ h1 {
   padding-left: 1em;
   margin-left: -1em;
   font-family: 'Chivo', sans-serif;
-  font-size: 8vw;
+  font-size: 12vw;
   text-align:center;
 }
 
@@ -68,6 +68,7 @@ nav {
 }
 
 .arrows {
+margin-top: 1em;
 display: inline-block;
 width:100%;
 }
