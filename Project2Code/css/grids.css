@@ -32,7 +32,7 @@
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
 */
-.grid-col-5of10, .grid-col-2of10 {
+.grid-col-5of10, .grid-col-2of10, .grid-col-3of10 {
 	width: 100%;
 }
 
@@ -75,7 +75,7 @@
 */
 @media (min-width: 50em) {
 
-	.grid-col-5of10 {
+	.grid-col-3of10 {
 		width: 33.3%;
 	}
 
@@ -87,7 +87,7 @@
 		/*padding-left: 0.5em;*/
 	}
 
-	.half {
+	.grid-col-5of10 {
 		width: 50%;
 	}
 

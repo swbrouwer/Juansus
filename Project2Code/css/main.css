@@ -36,11 +36,22 @@ h2 {
 	color: #FFF;
 }
 
-
-.grid-col-5of10 p{
-	margin-bottom: 9em;
+.title-About{
+	margin-bottom: 1.5em;
+	color: #ED1B24;
 }
 
+
+.grid-col-5of10 p{
+	margin-bottom: 10em;
+}
+
+.grid-col-3of10 p{
+	padding: 0 1em;
+	color: #333;
+	margin-bottom: 9em;
+	text-align: center;
+}
 
 p, ul, ol {
 	font-size: 1rem;
@@ -57,7 +68,7 @@ article {
 	text-align: left;
 	margin: 0; 
 	
-	border: 1px solid blue;
+	border: 1px solid white;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -73,7 +84,7 @@ article {
 }
 
 #About {
-	background-color: #ED1B24;
+	background-color: #FFF;
 }
 
 
@@ -85,7 +96,23 @@ article {
 	background-color: #ED1B24;
 }
 
+.material-icons{
+	margin-left: 1em;
+    
+    color: #FFF;
+    border: .123em solid #FFF;
+    border-radius: 2em;
+}
 
+.material-icons:hover, .material-icons:active{
+	color: #333;
+	border-color: #333;
+}
+
+#Contact p{
+	margin-top: 1.35em;
+	padding-left: 1em;
+}
 footer{
 	display: inline-block;
 }
@@ -123,9 +150,11 @@ figcaption{
 }
 
 img {
-	height: auto; 
-	width: 100%;
-	max-width: 100%;
+	height: auto;
+	padding: .3em; 
+	border: .3em solid black;
+	border-radius: 3em;
+	max-width: 5.500em;
 	z-index: -1;
 }
 
