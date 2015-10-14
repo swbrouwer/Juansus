@@ -12,6 +12,11 @@ body {
   font-size: 12px;
 }
 
+.form{
+  margin-bottom: 3em;
+  margin-left: 5.5em;
+}
+
 .title{
   padding-top: 0em;
   margin-top: 0em;
@@ -39,17 +44,17 @@ h1 {
 h2 {
   font-family: 'Arvo', serif;
   padding-left: 1em;
+  margin-left: 1.3em;
 }
 
 h3 {
   font-family: 'Arvo', serif;
+  margin-left: 3em;
 }
 
 
-
-
-a {
-  font-family: arial, sans-serif;
+a{
+  text-decoration: none;
 }
 
 
@@ -99,6 +104,55 @@ section code {
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
+
+
+.yes {
+  font-family: 'Arvo', serif;
+  width:20%;
+  float:right;
+  letter-spacing: 1em;
+  display: inline-block;
+  margin-right: 4em;
+  margin-left: 6em;
+  margin-top: 1em;
+  padding: 1em 1em;
+  color: black;
+  background-color: #D73224;
+  border-radius: 4px;
+  text-align: middle;
+  text-align: center;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+}
+
+.no {
+  font-family: 'Arvo', serif;
+  width: 20%;
+  letter-spacing: 1em;
+  display: inline-block;
+  margin-right: 4em;
+  margin-top: 1em;
+  padding: 1em 1em;
+  color: black;
+  background-color: #D73224;
+  border-radius: 4px;
+  text-align: middle;
+  text-align: center;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+}
+
+
+
+
 .button-nav {
   font-family: 'Arvo', serif;
   width: 100%;
@@ -152,7 +206,7 @@ section code {
   border-radius: 180px;
   text-align: middle;
   text-align: center;
-  width:4em;
+  width:4.5em;
   -webkit-transition: background-color 1s ease-out;
   transition: background-color 1s ease-out;
   -webkit-transition: color 1s ease-out;
@@ -168,7 +222,7 @@ section code {
   margin-right: 0.9em;
   padding: 1em 1em;
   color: black;
-  width: 4em;
+  width: 5em;
   background-color: #D73224;
   border-radius: 180px;
   text-align: middle;
@@ -216,6 +270,22 @@ section code {
 }
 
 .arrows2:hover, .arrows1:focus {
+  background-color: white;
+  border-radius: 0;
+  background: 0.5;
+  color: black;
+
+}
+
+.yes:hover, .arrows1:focus {
+  background-color: white;
+  border-radius: 0;
+  background: 0.5;
+  color: black;
+
+}
+
+.no:hover, .arrows1:focus {
   background-color: white;
   border-radius: 0;
   background: 0.5;
