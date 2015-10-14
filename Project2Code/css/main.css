@@ -1,0 +1,280 @@
+
+
+body {
+	font-family: 'Arvo', Verdana, sans-serif;
+	font-size: 1em; 
+	color: black;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+	font-family: "Chivo", Verdana, sans-serif;
+	font-weight: 900;
+}
+
+
+h1 {
+
+	margin: 0;
+	padding: 2em 0;
+	font-size: 10vw; 
+	text-align: center;
+	text-transform: uppercase;
+
+
+}
+
+
+h2 {
+	
+	font-size: 3em; 
+	margin-top: 8rem;
+	margin-bottom: 0;
+	margin-left: .3em;
+	color: #FFF;
+}
+
+
+.grid-col-5of10 p{
+	margin-bottom: 9em;
+}
+
+
+p, ul, ol {
+	font-size: 1rem;
+	line-height: 1.2em; 
+	text-align: left;
+	color: #FFF;
+	margin-left: 1em;
+	margin-bottom: 3rem;
+	margin-right: 1em;
+}
+
+/* SECTION BOXES */
+article {
+	text-align: left;
+	margin: 0; 
+	
+	border: 1px solid blue;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#Home {
+	position: relative;
+	top: 0;
+	width:100%;
+	height: auto;
+	background-image: url(file:///Users/macbookpro/Documents/IAT%20339/Starter%202/img/New_York.jpg);
+	background-size: cover;
+
+}
+
+#About {
+	background-color: #ED1B24;
+}
+
+
+#Buy {
+	background-color: #6cd5fa;
+}
+
+#Sell {
+	background-color: #ED1B24;
+}
+
+
+footer{
+	display: inline-block;
+}
+
+h3{
+	float:left;
+	display: inline;
+}
+
+
+footer p{
+
+	
+	color: #333;
+	float: left;
+    display: inline;
+
+}
+
+figure {
+
+	position: relative;
+	margin: 0;
+
+}
+
+figcaption{
+
+	position: absolute;
+	font-size: 0.8rem;
+	font-style: italic;
+	bottom:1em;
+	left: 1em;
+	color: white;
+}
+
+img {
+	height: auto; 
+	width: 100%;
+	max-width: 100%;
+	z-index: -1;
+}
+
+
+
+
+nav {
+	margin-left: 0;
+	width: 100%;
+	font-family: 'Chivo', Verdana, sans-serif;
+	font-style: uppercase;
+	font-weight: 400;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3);
+
+	}
+
+
+	.button-nav {
+	width: 100%;
+
+}
+
+
+
+.button-nav, .button-nav:visited {
+	font-size: .8em;
+	display: inline-block;
+	background-color: #FFF;
+	color: #333;
+	padding: 1.5em 1.25em;
+	text-decoration: none;
+	
+	-webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  
+	-webkit-transition: background-color 0.5s, color 0.5s;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+.button-nav::before, .button-nav:visited::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ED1B24;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+
+}
+
+
+
+.button-nav:hover, .button-nav:active, .button-nav:focus {
+	
+	color: #ED1B24;
+	border-bottom: 1px solid #ED1B24;
+}
+
+.button-nav:hover::before, .button-nav:active::before, .button-nav:focus::before {
+  -webkit-transform: scaleY(.15);
+  transform: scaleY(.15);
+}
+
+
+
+.menu, .exit{
+	position: fixed;
+	z-index: 10;
+	margin-bottom: -1em;
+	background-color: #FFF;
+	padding: 1em 100% 1em 1em;
+	display: none;
+	text-decoration: none;
+	font-family: "Chivo", Verdana, sans-serif;
+	color: #333;
+	/*border-bottom: .1em solid #333;*/
+	box-shadow: 0 .15em 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.menu:hover, .exit:hover{
+	color: #ED1B24;
+}
+
+
+
+
+
+/* NAV MOBILE MENU BUTTON */
+
+@media (max-width: 30em) {
+
+	.menu {
+		
+		display: block;
+			
+	}
+
+	#top{
+
+	display: none;
+
+
+	}
+
+	nav{
+		top: 3em;
+	}
+
+	#top:target {
+
+	display: block;
+
+	}
+}
+
+
+article a {
+	color: #FFF; 
+	font-style: italic;
+	text-decoration: none;
+}
+
+
+article a:visited {
+	color: #FFF;
+}
+
+
+article a:active, article a:hover {
+	color: #333; 
+	text-decoration: none;
+}
+
