@@ -26,6 +26,12 @@ h1 {
 
 }
 
+footer{
+	border-width: 2px;
+	border-color: black;
+}
+
+
 
 h2 {
 	
@@ -78,7 +84,7 @@ article {
 	top: 0;
 	width:100%;
 	height: auto;
-	background-image: url(file:///Users/macbookpro/Documents/IAT%20339/Starter%202/img/New_York.jpg);
+	background-image: url(file:///Users/SeanBean/Documents/Iat%20339/Juansus.git/Project2Code/img/New_York.jpg);
 	background-size: cover;
 
 }
@@ -157,7 +163,23 @@ img {
 	max-width: 5.500em;
 	z-index: -1;
 }
+.icons{
+	width: 3em;
+	height:3em;
+}
 
+
+.share2{
+
+padding: 5px;
+margin-left: 8em;
+margin-top: 1em;
+border: 0em;
+border-color: white;
+box-shadow: 0;
+float:right;
+
+}
 
 
 

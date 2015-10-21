@@ -53,6 +53,17 @@ select{
   width:100%;
 }
 
+.share{
+
+width: 35px;
+padding: 5px;
+margin-left: 2.2em;
+border: 0;
+box-shadow: 0;
+display: inline;
+
+}
+
 h1 {
   padding-top: 0em;
   margin-top: -0.2em;
