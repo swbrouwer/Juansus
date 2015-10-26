@@ -53,11 +53,19 @@ background-color: white;
 
 h3{
 	font-size: 2.25rem;
-	margin: auto;
+	margin-top: auto;
+	margin-bottom: 0;
 	padding: 5em 0;
 	text-align: center;
 	color: #0080bb;
 	
+}
+
+textarea{
+	display: block;
+	margin-right: 6em;
+	width: 100%;
+	float:left;
 }
 
 .Indicator-steps{
@@ -66,6 +74,40 @@ h3{
 	margin-left: 1.5em;
 	margin-bottom: 6em; 
 }
+
+/*SELL PAGES*/
+
+.form{
+	margin-left: 8vw;
+	margin-bottom: 4em;
+	margin-top: -5em;
+}
+
+
+.h1s{
+	color: #333;
+	text-align: center;
+	margin-bottom: -2em;
+}
+
+.h3s{
+	margin-bottom: -2em;
+}
+
+.feedback{
+	margin-left: 3vw;
+	margin-top: -7em;
+	float: left;
+}
+
+.share {
+	margin-top: -20em;
+}
+.twitter {
+	margin-right: 8vw;
+}
+
+
 
 /*BUY PAGES*/
 
@@ -82,6 +124,22 @@ h3{
     padding-top: 2em;
     padding-bottom: .2em;
 	background-color: #0080bb;
+}
+
+.arrowicon{
+  width: 2em;
+  height: 2em;
+  margin-top: 0.2em;
+  margin-bottom:0.2em;
+
+}
+
+.arrowiconleft{
+  width: 2em;
+  height: 2em;
+  margin-top: 0.2em;
+  margin-bottom:0.2em;
+  transform:rotate(180deg);
 }
 
 /*STATES LIST*/
@@ -334,7 +392,6 @@ nav {
 }
 
 
-
 .button-nav:hover, .button-nav:active, .button-nav:focus {
 	
 	color: #ED1B24;
@@ -346,7 +403,98 @@ nav {
   transform: scaleY(.15);
 }
 
+.register{
+ position:relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+.yes {
+  font-family: 'Arvo', serif;
+  width:40%;
+  letter-spacing: 1em;
+  display: inline-block;
+  margin-left:4vw;
+  margin-top: 1em;
+  margin-bottom: 8em;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  background-color: #ED1B24;
+  border-radius: 4px;
+  text-align: middle;
+  text-align: center;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+}
 
+.no {
+  font-family: 'Arvo', serif;
+  width: 40%;
+  letter-spacing: 1em;
+  float: right;
+  display: inline-block;
+  margin-left:11vw;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em 1em;
+  color: white;
+  background-color: #ED1B24;
+  border-radius: 4px;
+  text-align: middle;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+}
+
+.arrows1 {
+  font-family: 'Arvo', serif;
+  margin-right: -0.5em;
+  margin-left: 0.9em;
+  padding: 1em 1em;
+  color: black;
+  background-color: #ED1B24;
+  border-radius: 180px;
+  text-align: middle;
+  text-align: center;
+  width:4.5em;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+  float:left;
+}
+
+
+.arrows2 {
+  font-family: 'Arvo', serif;
+  margin-right: 0.9em;
+  padding: 1em 1em;
+  color: black;
+  width: 4.5em;
+  background-color: #ED1B24;
+  border-radius: 180px;
+  text-align: middle;
+  text-align: center;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+  float:right;
+}
 
 .menu, .exit{
 	position: fixed;
@@ -356,7 +504,7 @@ nav {
 	padding: 1em 100% 1em 1em;
 	display: none;
 	text-decoration: none;
-	font-family: "Chivo", Verdana, sans-serif;
+	font-family: Verdana, sans-serif;
 	color: #555;
 	/*border-bottom: .1em solid #333;*/
 	box-shadow: 0 .15em 0 0 rgba(0, 0, 0, 0.1);
@@ -423,6 +571,7 @@ article a {
 
 article a:visited {
 	color: #FFF;
+	text-decoration: none;
 }
 
 

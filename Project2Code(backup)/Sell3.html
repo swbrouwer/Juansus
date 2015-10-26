@@ -6,14 +6,16 @@
     <meta ="utf-8">
     <title>Sell-1</title>
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Chivo:400,900' rel='stylesheet' type='text/css'>
     
 <!-- thats important! -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/Buymain.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
+     <link rel="stylesheet" href="css/grids.css">
+     <link rel="stylesheet" href="css/crumbs.css">
 
   </head>
 
@@ -21,18 +23,83 @@
 
   <body>
 
-    <header>
-    
-      <h1><span style="color:#D73224">BUY.</span><span style="color:#231f20">VOTE.</span><span style="color:#6CD5FA">2015</span></h1>
+    <header id ="top">
+
+    <nav class="grid-row">
+
+         <div class="grid-col-2of10">
+          <!--<a href="#Home" class="button-nav bg1">Home</a>-->
+          <a href="index.html" class="icon-nav bg1"><img class="home-logo" src="img/logo_blue.png"></a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="index.html#About" class="button-nav bg2">About</a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="Buy1.html" class="button-nav bg3">Buy</a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="Sell1.html" class="button-nav bg4">Sell</a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="index.html#Contact" class="button-nav bg5">Contact</a>
+        </div>
+
+        
+
+      </nav>
+
+    <a href="#top" class="exit" >Exit</a>
 
     </header>
+   
+<a href="#top"  id="menu-button" class="menu">Menu</a>
+
+   <!-- vvvv  BREAD CRUMBS vvvv -->
+<div class="sellheading"> 
+
+<div class="bread-crumbs">
+<h2 class="titlecrumb"> Sell your vote. </h2>
+ <div class="line"></div>
+<div class="crumb">
+<div class="circle"></div>
+<p>Registered?</p>
+</div>
+
+
+ <div class="crumb">
+<div class="circle"><a href="sell2.html"></div>
+<p>Input Info</p>
+</a>
+</div>
+
+ <div class="circle current-page">
+<div class="circle"><a href="sell3.html"></div>
+<p>Confirm Sell</p>
+</a>
+</div>
+
+ <div class="crumb">
+<div class="circle"><a href="sell4.html"></div>
+<p>Share!</p>
+</a>
+</div>
+
+</div>
+
+    </div>
+
+
+     <!-- ^^^  END OF BREAD CRUMBS ^^^ -->
+
 
     <div>
-      <h2> California</h2>
-      <h3> Modoc </h3>
-      <p> Pic of state </p>
-      <h3> VOTES: 1 </h3>
-      <h3> COST: $1600 </h3>
+      <h2 class="h1s"> Madera County California</h2>
+      <h3 class="h3s"> You have one vote in your county you can sell, it's currently worth $1600 </h3>
+      
     </div>
 
     <div class="arrows">
@@ -41,7 +108,7 @@
     <img src="img/arrowpng.png" class="arrowiconleft">
    
   </a>
-        <a href="Sell4.html" class="yes">
+        <a href="Sell4.html" class="no">
           SELL
         </a>
     </div>

@@ -6,14 +6,16 @@
     <meta ="utf-8">
     <title>Sell-1</title>
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Chivo:400,900' rel='stylesheet' type='text/css'>
     
 <!-- thats important! -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/Buymain.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/grids.css">
+     <link rel="stylesheet" href="css/crumbs.css">
 
   </head>
 
@@ -21,32 +23,92 @@
 
   <body>
 
-    <header>
-    
-      <h1><span style="color:#D73224">BUY.</span><span style="color:#231f20">VOTE.</span><span style="color:#6CD5FA">2015</span></h1>
+    <header id ="top">
+
+    <nav class="grid-row">
+
+        <div class="grid-col-2of10">
+          <!--<a href="#Home" class="button-nav bg1">Home</a>-->
+          <a href="index.html" class="icon-nav bg1"><img class="home-logo" src="img/logo_blue.png"></a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="index.html#About" class="button-nav bg2">About</a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="Buy1.html" class="button-nav bg3">Buy</a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="Sell1.html" class="button-nav bg4">Sell</a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="index.html#Contact" class="button-nav bg5">Contact</a>
+        </div>
+
+        
+
+      </nav>
+
+    <a href="#top" class="exit" >Exit</a>
 
     </header>
+   
+<a href="#top"  id="menu-button" class="menu">Menu</a>
+
+   <!-- vvvv  BREAD CRUMBS vvvv -->
+<div class="sellheading"> 
+
+<div class="bread-crumbs">
+<h2 class="titlecrumb"> Sell your vote. </h2>
+ <div class="line"></div>
+<div class="crumb">
+<div class="circle"></div>
+<p>Registered?</p>
+</div>
+
+
+ <div class="crumb">
+<div class="circle"><a href="sell2.html"></div>
+<p>Input Info</p>
+</a>
+</div>
+
+ <div class="crumb">
+<div class="circle"><a href="sell3.html"></div>
+<p>Confirm Sell</p>
+</a>
+</div>
+
+ <div class="crumb">
+<div class="circle current-page"><a href="sell4.html"></div>
+<p>Share!</p>
+</a>
+</div>
+
+</div>
+
+    </div>
+
+
+     <!-- ^^^  END OF BREAD CRUMBS ^^^ -->
 
     <div>
-      <h2> Your Vote is Up For Sale!</h2>
-      <h3> Share on Social Media </h3>
+      <h3 class="h3s"> Your Vote is Up For Sale! Please share on social media to spread the word!</h3>
+      
       
            <div class="share">
-          <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-          </a>
-
-          <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-    </a>
+          <h3><a href="https://twitter.com/SeanBeanMedia?lang=en">
+        <img class="twitter"src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a><a href="https://twitter.com/SeanBeanMedia?lang=en" target="_blank"><img class="facebook" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a></h3>
   </div>
-        
-        <h3> Please tell us why you decided to sell your vote with us today!</h3>
-        
-       <br>
-       <textarea cols="70" rows="10">
+        <div class="feedback">
+        <h4> Please tell us why you decided to sell your vote with us today!</h4>       
+       <textarea cols="700" rows="10">
       </textarea>
-      <br>
+    </div>
       <a href="index.html" class="no">
           Submit
         </a>
