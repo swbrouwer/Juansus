@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta ="utf-8">
+    <!-- For Mobile compatability -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Buy-Page1</title>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:400,400italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arvo:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grids.css">
+    <link rel="stylesheet" href="css/flex-box.css">
+
+  </head>
+
+
+
+  <body>
+
+        <header id="top">
+
+      <a href="#top" class="menu hidden">Menu</a>
+
+      <nav class="grid-row">
+
+        <div class="grid-col-2of10">
+          <!--<a href="#Home" class="button-nav bg1">Home</a>-->
+          <a href="index.html" class="icon-nav bg1"><img class="home-logo" src="img/logo_blue.png"></a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="#About" class="button-nav bg2">About</a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="#Buy" class="button-nav bg3">Buy</a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="Sell1.html" class="button-nav bg4">Sell</a>
+        </div>
+
+        <div class="grid-col-2of10">
+          <a href="#Contact" class="button-nav bg5">Contact</a>
+        </div>
+
+        
+
+      </nav>
+
+<a href="#top" class="exit" >Exit</a>
+
+    </header>
+   
+
+      <div class="Buy-heading">
+
+
+
+        <div class="buy-and-search">
+      <h2 class="Buy1-title">Pick a county.</span></h2>
+      <!-- <img class="Indicator-steps" src="img/indicator/1_Nav-indi.png"> -->
+
+
+ <!-- vvv SEARCH BAR vvv -->
+
+    <div class="search-box">
+  <div class="container-1">
+      <a href="Buy3.html"><span class="icon"><i class="material-icons">search</i></span></a>
+      <input type="search" id="search" placeholder="Search county..." />
+
+  </div>
+</div>
+
+</div>
+
+<!-- ^^^ END OF SEARCH BAR ^^^ -->
+
+
+         <!-- vvvv  BREAD CRUMBS vvvv -->
+
+<div class="bread-crumbs">
+
+  <div class="line"></div>
+ 
+ <div class="crumb">
+<div class="circle"></div>
+<p>pick state</p>
+</div>
+
+ <div class="crumb">
+<div class="circle current-page"></div>
+<p>pick county</p>
+</div>
+
+ <div class="crumb">
+<div class="circle"></div>
+<p># of votes</p>
+</div>
+
+ <div class="crumb">
+<div class="circle"></div>
+<p>confirm</p>
+</div>
+
+ <div class="crumb">
+<div class="circle"></div>
+<p>vote</p>
+</div>
+
+    </div>
+
+     <!-- ^^^  END OF BREAD CRUMBS ^^^ -->
+      
+
+      </div>
+
+      
+
+
+
+
+
+<!-- THIS IS WASHINGTON AND COUNTIES FLEX BOX -->
+   
+  <div class="flex-container-buy2">
+    
+    <!-- <div class="flex-item-buy2">
+      <figure>
+        <a href= "Buy2.html">
+          <img alt="Washington" src="img/states/1_Washington.png">
+          
+        </a>
+      </figure>
+    </div> -->
+
+    <div class="flex-item-buy3">
+
+     <h3>Washington</h3>
+
+     <div class="list-row county-button"> 
+
+         
+
+        <p class="county-title">County</p>
+
+        <p class="price-title">Price <img src="img/arrow_down.png"></p>
+
+        <p class="votes-title">Votes</p>
+
+          
+     </div>
+
+
+     <div class="list-row county-exit"> 
+
+        <p class="county-title">County</p>
+
+        <p class="price-title">Price <img src="img/arrow_up.png"></p>
+
+        <p class="votes-title">Votes</p>
+
+     </div>
+<!--      <h6 class="county-button">Counties <img src="img/arrow_down.png"> </h6>
+
+     <h6 class="county-exit">Counties <img src="img/arrow_up.png"> </h6> -->
+     
+     <div class="county-list">
+
+
+           <div class="list-row2"><p class="countyname">San Juan</p><input type="number" class="input-number"id="number" placeholder="0" /><div class="confirm-button" type="button"><p>confirm</p></div><p class="price">$310</p></div>
+
+           <div class="list-row2"><p class="countyname">San Juan</p> <p class="price">$310</p></div>
+      </div> 
+
+
+     
+    </div>
+
+    <!-- vvv FILTERING BOX vvv -->
+
+      <div class="flex-item-buy2">
+
+            <div class="filter-title">        
+
+            <p>Filters</p>
+
+            </div>  
+
+        <div class="check-line">
+            
+            <div class="checkbox">
+                <input type="checkbox" value="None" id="checkbox" name="check" />
+                <label for="checkbox"></label>
+            </div>
+
+            <p>Most Votes</p>
+
+        </div>
+
+
+
+        <div class="check-line">
+            
+            <div class="checkbox">
+                <input type="checkbox" value="None" id="checkbox" name="check" />
+                <label for="checkbox"></label>
+            </div>
+
+            <p>Lowest Price</p>
+
+        </div>
+
+
+
+        <div class="check-line">
+            
+            <div class="checkbox">
+                <input type="checkbox" value="None" id="checkbox" name="check" />
+                <label for="checkbox"></label>
+            </div>
+
+            <p>Most Expensive</p>
+
+        </div>
+
+
+
+
+      </div>
+
+<!-- ^^^ END OF FILTERING BOX ^^^ -->
+
+  <!-- vvv FOOTER HERE vvv   -->
+</div>
+
+    <footer class="flex-container-footer"id="Contact">
+
+      <div class="flex-item-footer">
+
+      <h4>Contact</h4>
+
+      <h5>feel free to get in touch<br>with us toll free at</h5>
+      <h5>1800-267-5555</h5>
+
+      </div>
+
+      <div class="flex-item-footer">
+
+        <h4>Follow us</h4>
+
+        <p><a href="https://www.facebook.com"><img src="img/facebook.png"></a>
+        <a href="https://www.twitter.com"><img src="img/twitter.png"></a>
+        <a href="https://www.twitter.com"><img src="img/google+.png"></a>
+        </p>
+
+      </div>
+
+      <div class="flex-item-footer">
+        <h5> © property of JuanSean.inc 2012</h5>
+      </div>
+
+    </footer>
+
+    <!-- ^^^ FOOTER ENDS HERE ^^^   -->
+
+
+ 
+
+  
+
+
+
+    
+
+<!-- THIS IS WASHINGTON AND COUNTIES FLEX BOX ENDS -->
+
+
+ 
+
+    
+<script src= "js/jquery.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/county-list.js"></script>
+
+  </body>
+</html>
